@@ -2,4 +2,4 @@
 
 Jogo da memória utilizando HTML, CSS e JS.
 
-## Link do Projeto: https://joel-neto.github.io/Memory-game-JS/
+### Link do Projeto: https://joel-neto.github.io/Memory-game-JS/
