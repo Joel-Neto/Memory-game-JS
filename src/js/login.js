@@ -14,8 +14,10 @@ const validateInput = ({target}) => {
 const handleSubmit = (event) => {
     event.preventDefault();
     
-    sessionStorage.setItem("user-name", loginInput.value);
-    window.location = "src/pages/game.html"
+    sessionStorage.setItem("player-name", loginInput.value);
+    window.location = "pages/game.html"
+
+    event.target.reset();
 }
 
 loginInput.addEventListener("input", validateInput);

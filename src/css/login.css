@@ -43,10 +43,15 @@
     cursor: pointer;
     width: 100%;
     max-width: 300px;
+    margin-bottom: 25px;
 }
 
 .login-button:disabled {
     background-color: #eee;
     color: #aaa;
     cursor: auto;
+}
+
+.logo-img {
+    width: 200px;
 }
